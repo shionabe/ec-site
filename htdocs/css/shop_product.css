@@ -1,0 +1,131 @@
+
+
+
+/* ヘッダー */
+header{
+  height:150px;
+  width:100%;
+  background-color:#5591c5;
+  position:fixed;
+  top:0;
+  opacity:0.8;
+  /* z-index:; */
+}
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+  /* background-color:rgba(255, 255, 255, 0.3); */
+}
+
+
+/* コンテンツ中身 */
+.item-wrapper{
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.item {
+  width: 20%;
+  float: left;
+  padding: 0px 15px;
+
+}
+
+.btn-wrapper{
+  margin:10px;
+}
+
+/* ボタン */
+.btn{
+  padding:8px 10px;
+  display:inline-block;
+}
+
+.fa {
+  margin-right:10px;
+}
+
+
+.fabo{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #ffafd7 0%, #ffb5a6 100%);
+  transition: .4s;
+}
+
+.fabo:hover {
+  background-image: linear-gradient(45deg, #ffafd7 50%, #ffb5a6 100%);
+}
+
+
+.cart{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+  transition: .4s;
+}
+
+.cart:hover {
+  background-image: linear-gradient(45deg, #709dff 50%, #b0c9ff 100%);
+}
+
+
+.back{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #000;
+  background-image: linear-gradient(45deg, #bff0cf 0%, #f2eddb 100%);
+  transition: .4s;
+}
+
+.back:hover {
+  background-image: linear-gradient(45deg, #bff0cf 50%, #f2eddb 100%);
+}
+
+table td, table th {
+  width: 50%;
+  text-align: center;
+}
+
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+.item{
+  width:50%;
+}
+.work{
+  width:50%;
+}
+
+table td, table th {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+  .item{
+  width:100%;
+  }
+  .work{
+    width:100%;
+  }
+  table td, table th {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }

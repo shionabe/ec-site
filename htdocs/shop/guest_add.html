@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>アニメグッズ</title>
+  </head>
+  <body>
+    <h2>新規会員登録</h2>
+
+    お客様情報を入力してください。<br/>
+    <form method="post" action="guest_add_check.php">
+      氏名<br/>
+      <input type="text" name="onamae" style="width:200px"><br/>
+      メールアドレス<br/>
+      <input type="text" name="email" style="width:200px"><br/>
+      郵便番号<br/>
+      <input type="text" name="postal1" style="width:50px">&nbsp;-
+      <input type="text" name="postal2" style="width:80px"><br/>
+      住所<br/>
+      <input type="text" name="address" style="width:500px"><br/>
+      電話番号<br/>
+      <input type="text" name="tel" style="width:150px"><br/>
+      <br/>
+      性別<br/>
+      <input type="radio" name="danjo" value="dan" checked>男性<br/>
+      <input type="radio" name="danjo" value="jo">女性<br/>
+      <br/>
+      パスワードを設定してください。<br/>
+      <input type="password" name="pass" style="width:100px"><br/>
+      パスワードをもう一度入力してください。<br/>
+      <input type="password" name="pass2" style="width:100px"><br/>
+      <br/>
+      <a href="#">※利用規約</a>をお読みください。<br/>
+      <input type="radio" name="chumon" value="chumondoui" checked>同意する<br/>
+      <input type="radio" name="chumon" value="chumondouishinai">同意しない<br/>
+      <br/>
+
+      <input type="button" onclick="history.back()" value="戻る">
+      <input type="submit" value="OK"><br/>
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,149 @@
+
+
+
+/* ヘッダー */
+
+
+header{
+  height:150px;
+  width:100%;
+  background-color:#5591c5;
+  position:fixed;
+  top:0;
+  opacity:0.8;
+  /* z-index:; */
+}
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+  /* background-color:rgba(255, 255, 255, 0.3); */
+}
+
+
+/* Recomend works!! */
+
+.work{
+  float: left;
+  width: 20%;
+  margin-bottom: 100px;
+}
+
+.work-wrapper{
+  height:400px;
+}
+
+.work-icon{
+  text-align: center;
+}
+.work-icon p{
+  text-align: center;
+}
+
+.txt-contents {
+text-align: center;
+ width:80%;
+ display:inline-block;
+ margin:20px;
+ font-size:12px;
+　color:#b3aeb5;
+}
+
+
+/* AD */
+
+
+.top-wrapper{
+  margin-top: 200px;
+  width:100%;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+.item {
+  width: 25%;
+  float: left;
+  padding: 0px 15px;
+
+}
+
+.item-box {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.green {
+  background-color: #11D8B3;
+}
+
+.yellow {
+  background-color: #FFD466;
+}
+
+.yellow {
+  background-color: #ED456D;
+}
+
+.blue {
+  background-color: #3D7DD8;
+}
+
+
+/* フッダー上部 */
+
+
+.btn{
+  padding:8px 10px;
+  display:inline-block;
+}
+
+.fa {
+  margin-right:10px;
+}
+
+.home{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #bff0cf 0%, #f2eddb 100%);
+  transition: .4s;
+}
+
+.home:hover {
+  background-image: linear-gradient(45deg, #bff0cf 0%, #f2eddb 100%);
+}
+
+
+/* フッダー */
+
+footer{
+text-align: center;
+}
+
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+
+.item{
+  width:50%;
+}
+
+.work{
+  width:50%;
+}
+
+
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+  .item{
+  width:100%;
+  }
+
+  .work{
+    width:100%;
+  }
